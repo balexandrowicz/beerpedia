@@ -1,0 +1,10 @@
+/* Responsive ----------------------------- */
+
+@media (max-width: 480px) {
+	.leaflet-container .leaflet-control-attribution {
+		display: none;
+	}
+	.mobile-search {
+		bottom: 0;
+	}
+}

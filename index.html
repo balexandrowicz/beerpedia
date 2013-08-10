@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/leaflet.css" rel="stylesheet">
+		<!--[if lte IE 8]>
+			<link href="css/leaflet.ie.css" rel="stylesheet">
+		<![endif]-->
+		<link href="css/fonts.css" rel="stylesheet">
+    <link href="css/application.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <button type="button" id="findLocation" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Beerpedia</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav pull-right navbar-nav">
+            <li><a href="#">Map</a></li>
+            <li><a href="#">Table</a></li>
+            <li><a href="#">About</a></li>
+						<li><a href="#"><img src="img/icons/geolocate.svg"></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+		<div id="map"></div>
+		<div id="controls">
+			<button class="thumb-control btn btn-primary" id="toggleList"><img src="img/icons/list.svg"></button>
+			<button class="thumb-control btn btn-primary" id="toggleSearch"><img src="img/icons/search.svg" alt="Search"></button>
+		</div>
+		<div class="mobile-search">
+			<h3>Search</h3>
+			<input type="text" class="form-control" placeholder="Brewery, name, or beer">
+			<button class="btn btn-primary btn-default">Submit</button>
+		</div>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/leaflet.js"></script>
+		<script src="js/application.js"></script>
+		
+  </body>
+</html>

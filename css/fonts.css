@@ -1,0 +1,11 @@
+/* Franchise */
+@font-face {
+    font-family: 'Franchise';
+    src: url('../fonts/franchise/franchise.eot');
+    src: url('../fonts/franchise/franchise.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/franchise/franchise.woff') format('woff'),
+         url('../fonts/franchise/franchise.ttf') format('truetype'),
+         url('../fonts/franchise/franchise.svg#franchise') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
